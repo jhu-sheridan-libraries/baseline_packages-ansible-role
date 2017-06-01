@@ -1,7 +1,7 @@
 Baseline_Packages Ansible Role 
 =========
 
-Just a role that installs a bunch of packages, nothing special :)
+Just a role that installs a bunch of packages, nothing special.
 
 Requirements
 ------------

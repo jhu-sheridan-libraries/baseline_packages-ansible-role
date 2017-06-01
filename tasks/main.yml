@@ -3,7 +3,7 @@
 
 - name: Set packages variable to defaults if not supplied by user
   set_fact:
-    packages: {{ __packages | list }}
+    packages: "{{ __packages | list }}"
   when: packages is not defined
 
 - name: Install all packages
