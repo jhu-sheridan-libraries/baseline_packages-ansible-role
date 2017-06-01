@@ -7,6 +7,7 @@
   when: packages is not defined
 
 - name: Install all packages
+  become: true
   package:
     name: "{{ item }}"
     state: present
