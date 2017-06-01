@@ -1,0 +1,4 @@
+---
+# defaults file for baseline_packages-ansible-role
+
+__packages: ['vim', 'emacs-nox']
